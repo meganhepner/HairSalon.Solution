@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Salon.Controllers
+namespace HairSalon.Controllers
 {
-  public class SalonController : Controller
+  public class HomeController : Controller
   {
 
     [HttpGet("/")]
