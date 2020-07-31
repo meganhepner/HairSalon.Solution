@@ -8,10 +8,17 @@
   </head>
   <body>
     <div class= "container">
-      <div class="jumbotron">
-        <h1>Welcome Claire!</h1>
+      <div class="jumbotron text-center">
+        <h1><strong>Welcome Claire</strong></h1>
+        <p>@Html.ActionLink("Owner Portal", "Index", "Stylists")</p>
+        <div class="view overlay my-4">
+          <img src="~/img/salon.jpg" class="img-fluid" alt="">
+          <a href="#">
+            <div class="mask rgba-white-slight"></div>
+          </a>
+        </div>
+     
       </div>
-      <p>@Html.ActionLink("Owner Portal", "Index", "Stylists")</p>
     </div>
   </body>
 </html>
