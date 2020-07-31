@@ -1,6 +1,6 @@
 # <h1 align = "center"> Hair Salon
 
-# <h3 align = "center"> Entity Framework in ASP.NET MVC, 7.31.20
+## <h3 align = "center"> Entity Framework in ASP.NET MVC, 7.31.20
 
 ## <h2 align = "center"> About
 
