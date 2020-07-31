@@ -2,11 +2,9 @@
 
 # <h3 align = "center"> Entity Framework in ASP.NET MVC, 7.31.20
 
-#### By : Megan Hepner
+## <h2 align = "center"> About
 
-## About
-
-_This is an application for a hair salon. It allows the user to add stylists and their associated clients._
+<p align = "center"> This is an application for a hair salon. It allows the user to add stylists and their associated clients.
 
 ## **✅REQUIREMENTS**
 * Install [Git v2.62.2+](https://git-scm.com/downloads/)
@@ -18,7 +16,7 @@ _This is an application for a hair salon. It allows the user to add stylists and
 * to clone this content, copy the url provided by the 'clone or download' button in GitHub
 * in command line use the command 'git clone (GitHub url)'
 * open the program in a code editor
-* then install dotnet script REPL by typing 'dotnet tool installl -g dotnet-script' in the command line
+* 
 * type dotnet build in the command line to compile the code
 * create a .gitignore file and store the bin and obj folders in .gitignore
 * type dotnet run in the command line to run the program
@@ -28,12 +26,15 @@ __
 
 | Behavior    | Input | Output |
 | :---------- | ----- | -----: |
-| Program will create an album object | none | none |
-| Album object holds artist name and album name | none | none |
-| Program can retrieve a list of all albums | none | list |
-| Program can retrieve a list of all artists | none | list |
-| For each artist, program can retrieve a list of albums by that artist | none | none |
-| Program can delete an album | none | destroy |
+| Program can create a stylist object | none | none |
+| Stylist object holds stylist name and details | none | none |
+| Program can retrieve a list of all stylists | none | list |
+| Program can show details of stylist | none | details |
+| Program can create a Client object | none | none |
+| Stylist => Client reflects one to many relationship | none | none |
+| Client object holds client name and phone number | none | none |
+| Program can retrieve a list of all clients related to a particular stylist | none | list |
+
 
 
 ## Known Bugs
@@ -42,7 +43,7 @@ _No known bugs_
 
 ## Support and contact details
 
-_Contact : Megan Hepner, Peter Grimm, Micheal Hansen
+_Contact : Megan Hepner
 
 ## Technologies Used
 
